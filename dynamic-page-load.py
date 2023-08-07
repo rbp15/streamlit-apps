@@ -6,7 +6,7 @@ st.set_page_config(page_title="Dynamic Page Loading without a Multi-Page App")
 
 
 markdown = '''
-["Link 1"](demo_pages/page.py)
+["Link 1"](./demo_pages/page.py)
 '''
 
 with st.sidebar:
