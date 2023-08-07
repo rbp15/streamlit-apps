@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 
 st.set_page_config(
   page_title="Dynamic Page Loading without a Multi-Page App",
-  page_icon-"crystall_ball"
+  page_icon-"crystall_ball",
 )
 
 sidebar = st.sidebar()
