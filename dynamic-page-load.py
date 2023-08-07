@@ -10,4 +10,4 @@ markdown = '''
 '''
 
 with st.sidebar:
-  st.markdown(markdown, unsage_allow_html=True)
+  st.markdown(markdown, unsafe_allow_html=True)
