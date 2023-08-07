@@ -1,5 +1,4 @@
 import streamlit as st
-from components import Navigation
 import streamlit.components.v1 as components
 
 st.set_page_config(page_title="Dynamic Page Loading without a Multi-Page App")
