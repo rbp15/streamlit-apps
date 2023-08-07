@@ -17,3 +17,4 @@ with st.sidebar:
   st.markdown(markdown, unsafe_allow_html=True)
   st.divider()
   st.markdown(alternative_idea, unsafe_allow_html=True)
+  st.text("All links load a url format such as: /~/+/?load=page.py")
