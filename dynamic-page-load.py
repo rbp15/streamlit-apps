@@ -6,8 +6,14 @@ st.set_page_config(page_title="Dynamic Page Loading without a Multi-Page App")
 
 
 markdown = '''
-["Link 1"](./demo_pages/page.py)
+  ["Direct Load Link 1"](demo_pages/page.py)
+'''
+
+alternative_idea = '''
+  ["Query String Load"](?load=page.py)
 '''
 
 with st.sidebar:
   st.markdown(markdown, unsafe_allow_html=True)
+  st.divider()
+  st.markdown(alternative_idea, unsage_allow_html=True)
